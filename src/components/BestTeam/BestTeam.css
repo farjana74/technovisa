@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.BestTeam-bg {
+    background-image: url('../../images/Team Image.png');
+    height: 494px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: normal;
+    background-color: rgba(80, 114, 157, 0.84);
+    ;
+    /* background: rgba(80, 114, 157, 0.84); */
+    /* opacity: .05; */
+}
+
+.award-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+}
+
+
+.award-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+}
+
+.award-box {
+    width: 433px;
+}

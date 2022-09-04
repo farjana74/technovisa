@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.banner-bg {
+    /* background-color: #50729DD6; */
+    background-image: linear-gradient(rgba(3, 78, 118, 0.898), #12242F24);
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.banner-button {
+    background: #FF5529;
+    border-radius: 50px;
+    padding: 8px 25px;
+
+}
+
+.button-content {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
