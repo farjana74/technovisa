@@ -15,13 +15,13 @@ const Banner = () => {
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav ms-auto navigation-first   mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                    <a class="nav-link active" aria-current="page" href="/#">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">ABOUT US</a>
+                                    <a class="nav-link" href="/#">ABOUT US</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">SERVICES</a>
+                                    <a class="nav-link" href="/#">SERVICES</a>
                                 </li>
                             </ul>
 
@@ -33,13 +33,13 @@ const Banner = () => {
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav navigation-second me-auto  mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                                    <a class="nav-link active" aria-current="page" href="/#">PORTFOLIO</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">CONTACT US</a>
+                                    <a class="nav-link" href="/#">CONTACT US</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">SUPPORT</a>
+                                    <a class="nav-link" href="/#">SUPPORT</a>
                                 </li>
                             </ul>
 

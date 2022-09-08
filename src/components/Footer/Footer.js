@@ -1,17 +1,23 @@
 import './Footer.css';
+import 'aos/dist/aos.css';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 
+import AOS from 'aos';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import { RiLinkedinFill } from 'react-icons/ri';
 
 const Footer = () => {
+    // animation of AOS
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
         <div className='container-fluid footer-bg position-relative'>
             <div className='footer-content  '>
-                <div className='news position-absolute top-0 start-50 translate-middle pt-2 '>
+                <div data-aos="fade-up" className='news position-absolute top-0 start-50 translate-middle pt-2 '>
                     <h2 className='news-title'>NEWSLETTER</h2>
 
                     <form className='mx-auto '>
