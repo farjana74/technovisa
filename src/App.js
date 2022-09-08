@@ -7,7 +7,7 @@ import WorkPlace from './components/WorkPlace/WorkPlace';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Banner></Banner>
       <WorkPlace></WorkPlace>
       <br />

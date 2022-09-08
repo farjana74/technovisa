@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 .BestTeam-bg {
+    background-color: rgba(80, 114, 157, 0.84);
     background-image: url('../../images/Team Image.png');
+    /* border-radius: 50% 50% 0 0 /10%; */
+    border-radius: 58% 58% 0 0 / 25%;
+    /* transform: scale(1.5); */
+
     height: 494px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: normal;
-    background-color: rgba(80, 114, 157, 0.84);
+    background-blend-mode: multiply;
+
     ;
     /* background: rgba(80, 114, 157, 0.84); */
     /* opacity: .05; */
+}
+
+.BestTeam-bg:after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-image: url('../../images/Separator (1).png');
 }
 
 .award-title {
@@ -21,6 +33,16 @@
 
     color: #FFFFFF;
     font-family: 'Source Sans Pro';
+}
+
+.award-team-bg {
+    background-image: url('../../images/Sparkles.png');
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+.award-content-margin {
+    padding-top: 13px;
 }
 
 
@@ -34,4 +56,13 @@
 
 .award-box {
     width: 433px;
+}
+
+@media only screen and (max-width: 1180px) {
+
+    .award-box {
+        width: 330px;
+    }
+
+
 }

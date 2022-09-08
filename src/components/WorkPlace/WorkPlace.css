@@ -19,28 +19,59 @@
 
 }
 
-/* .workplace-image {
-    display: flex;
-    flex-direction: column;
+.workplace-border {
+    background-image: url('../../images/mem_stipe_square.png');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    margin: 0;
+
+}
+
+.workplace-border {
+    background-image: url('../../images/mem_dots_rect2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+
+}
 
 
-} */
 .workplace-first-bg {
     border: 1px solid #CCCCCC;
     border-radius: 0px 10px;
-    height: 468px;
+    /* height: 446px !important; */
 }
 
 .workplace-image-top {
     border: 1px solid #CCCCCC;
     border-radius: 0px 10px;
-    width: 470px;
-    height: 218px;
+
+
 }
 
 .workplace-image-bottom {
     border: 1px solid #CCCCCC;
     border-radius: 0px 10px;
-    width: 470px;
-    height: 218px;
+
+
+}
+
+.bottom-div {
+    padding-top: 32px;
+
+}
+
+.workplace-bg-image {
+    background-image: url("../../images/mem_dots_rect2.png"), url('../../images/mem_stipe_square.png'), url('../../images/mem_stripe_circle2.png'), url('../../images/mem_wave_10.png'), url('../../images/mem_wave_7.png');
+    background-repeat: no-repeat;
+    background-position: top -8% left 50px, right center, bottom 20px left, top -17% right 60px, bottom;
+}
+
+@media only screen and (min-width: 375px) {
+    .workplace-first-bg {
+        /* height: 100% !important; */
+    }
+
+
+
 }
